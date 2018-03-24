@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.photobook.BookPagesActivity" >
+
+    <item
+        android:id="@+id/Add_pages"
+        android:orderInCategory="100"
+        android:title="@string/add_pages"
+        app:showAsAction="never"/>
+
+</menu>

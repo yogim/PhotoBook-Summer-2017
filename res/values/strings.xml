@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhotoBook</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_setting">Add book</string>
+    <string name="rowimage">bookimage</string>
+    <string name="title_activity_book_pages">BookPagesActivity</string>
+    <string name="add_pages">Add pages</string>
+    <string name="title_activity_fullscreen">Fullscreen</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="app_id">642178159185894</string>
+    <string name="title_activity_registerform">Registerform</string>
+    <string name="title_activity_registerationform">Registerationform</string>
+    <string name="title_activity_registration_form">RegistrationForm</string>
+    <string name="title_activity_forgotpassword">ForgotpasswordActivity</string>
+<string name="progress_dialog_text">processing</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/bookimage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/rowimage"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <TextView
+        android:id="@+id/bookname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bookimage"
+        android:paddingBottom="10dp"
+        android:text="Book name :"
+        android:textColor="#CC0033"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/bookauthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookname"
+        android:layout_toRightOf="@+id/bookimage"
+        android:paddingBottom="10dp"
+        android:text="Author name :"
+        android:textColor="#CC0033"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/datecreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookauthor"
+        android:layout_toRightOf="@+id/bookimage"
+        android:paddingBottom="10dp"
+        android:text="Date created:"
+        android:textColor="#CC0033"
+        android:textSize="14sp" />
+
+</RelativeLayout>

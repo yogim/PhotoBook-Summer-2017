@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/Delete_book"
+        android:orderInCategory="100"
+        android:title="Delete"
+        />
+<!-- <item android:id="@+id/update_book" -->
+<!--         android:orderInCategory="100" -->
+<!--         android:title="change details" -->
+<!--         /> -->
+ <item android:id="@+id/Share_book"
+        android:orderInCategory="100"
+        android:title="share on facebook"
+        />
+
+
+</menu>

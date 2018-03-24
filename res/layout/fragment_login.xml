@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto">
+
+   
+        
+        
+        <com.facebook.widget.LoginButton 
+         android:id="@+id/fb_login_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+     facebook:confirm_logout="false"
+        facebook:fetch_user_info="true"
+            />
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        
+        android:textSize="18sp" />
+    
+  <TextView
+  
+  android:text="OR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_margin="10dp"
+        
+        android:textSize="18sp" />
+      
+    <EditText 
+android:hint="enter user name"
+android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="30dp"
+        android:id="@+id/username_edittext"
+        
+        />
+  <EditText 
+android:hint="enter password"
+android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="30dp"
+        android:id="@+id/password_edittext"
+        android:inputType="textPassword"
+        />
+  
+  <Button 
+      android:text="login"
+      android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/login_button"
+      />
+ <Button 
+      android:text="Register"
+      android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/register_button"
+      />
+ 
+ <!-- <Button 
+      android:text="Forgot password ?"
+      android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/Forgotpassword_button"
+      /> -->
+     
+</LinearLayout>

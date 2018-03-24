@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_name_textbook"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Book Name"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/dialog_name_editbook"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/dialog_name_textbook"
+        android:gravity="center_vertical"
+        android:hint="enter book name"
+        android:paddingLeft="20dp"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/dialog_name_textauthor"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/dialog_name_textbook"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Author Name"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/dialog_name_editAuthor"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/dialog_name_editbook"
+        android:layout_toRightOf="@+id/dialog_name_textauthor"
+        android:gravity="center_vertical"
+        android:hint="enter Author name"
+        android:paddingLeft="20dp"
+        android:textSize="14dp" />
+
+    <!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3E80B4"
+        android:orientation="horizontal"
+        android:layout_below="@+id/dialog_name_textauthor" >
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@android:color/white"
+            android:clickable="true"
+            android:text="Yes"
+            android:textColor="#5DBCD2"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@android:color/white"
+            android:clickable="true"
+            android:text="No"
+            android:textColor="#5DBCD2"
+            android:textStyle="bold" />
+    </LinearLayout>
+    -->
+
+</RelativeLayout>
